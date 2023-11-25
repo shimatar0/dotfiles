@@ -1,0 +1,47 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "rust-analyzer.debug.engineSettings": {},
+    "settingsSync.ignoredExtensions": [],
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-n>": false,
+        "<C-c>": false,
+        "<C-x>": false,
+        "<C-v>": false,
+        "<C-b>": false,
+        "<C-k>": false,
+        "<C-p>": false,
+    },
+    "editor.minimap.enabled": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "vsnotes.defaultNotePath": "~/dev/src/memo",
+    "editor.fontFamily": "\"JetBrains Mono\"",
+    "solidity.telemetry": true,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
+    "mojo.modularHomePath": "/home/neko/.modular",
+    "mojo.onSettingsChanged": "restart",
+    "[mojo]": {
+
+    },
+    "terminal.integrated.inheritEnv": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontSize": 16,
+    "workbench.startupEditor": "none",
+    "[python]": {
+        "editor.codeActionsOnSave": {
+          "source.fixAll.ruff": true,
+          "source.organizeImports.ruff": true
+        }
+    }
+}
