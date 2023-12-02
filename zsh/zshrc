@@ -1,0 +1,36 @@
+# path
+export PATH=$PATH:/usr/local/go/bin
+source $HOME/.cargo/env
+export PATH="/home/neko/.local/bin:$PATH"
+
+# history
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt hist_ignore_dups
+setopt share_history
+setopt auto_pushd
+setopt pushd_ignore_dups
+
+# sharship
+eval "$(starship init zsh)"
+
+# alias
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias la='ls -a'
+
+alias zshrc='vi ~/.zshrc'
+alias history='history 1'
+
+alias dc='docker compose'
+alias d='docker'
+
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# zsh-autosuggestions color
+export TERM=xterm-256color
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
