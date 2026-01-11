@@ -1,0 +1,25 @@
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Neovim
+nvim/.netrwhist
+nvim/shada/
+nvim/swap/
+nvim/undo/
+nvim/backup/
+nvim/view/
+nvim/log/
+nvim/state.json
+nvim/lazy/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+*.bak
+
+# Node.js (if used in future)
+node_modules/

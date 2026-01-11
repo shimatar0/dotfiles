@@ -1,0 +1,32 @@
+# プロンプトの並び（←必要なものだけ）
+format = " $directory $git_branch$python$line_break $character"
+add_newline = false
+
+# ディレクトリ表示
+[directory]
+style = "cyan bold"
+# リポジトリ直下までは省略しない（trueにするとリポジトリ名で打ち止め）
+truncate_to_repo = false
+# 先頭からの階層省略。3にすると ~/p/rj/myproj みたいに短縮
+truncation_length = 3
+fish_style_pwd_dir_length = 1
+
+# Gitブランチ表示
+[git_branch]
+# "on " を消してシンプルにする
+format = "[$symbol$branch]($style) "
+symbol = " "         # フォント合わなければ " " や "" に
+style  = "purple bold"
+
+# プロンプト記号
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol   = "[➜](bold red)"
+
+[python]
+format = "[$symbol$virtualenv]($style) "
+symbol = " "
+style  = "bold yellow"
+detect_extensions = []
+detect_files = []
+detect_folders = []

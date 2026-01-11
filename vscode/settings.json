@@ -18,7 +18,7 @@
         "<C-v>": false,
         "<C-b>": false,
         "<C-k>": false,
-        "<C-p>": false,
+        "<C-p>": false
     },
     "editor.minimap.enabled": false,
     "files.insertFinalNewline": true,
