@@ -13,9 +13,9 @@ fi
 echo '---------------------------------------------------'
 echo ' Setting up dotfiles...'
 echo '---------------------------------------------------'
-curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos-arm64.tar.gz
-tar xzf nvim-macos-arm64.tar.gz
-rm nvim-macos-arm64.tar.gz
+# curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos-arm64.tar.gz
+# tar xzf nvim-macos-arm64.tar.gz
+# rm nvim-macos-arm64.tar.gz
 
 DOTPATH=$HOME/dev/src/dotfiles
 
