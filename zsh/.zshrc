@@ -53,3 +53,6 @@ bindkey '^r' fzf-select-history
 
 # Added by Antigravity
 export PATH="/Users/ka/.antigravity/antigravity/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/shimataro/.antigravity/antigravity/bin:$PATH"
