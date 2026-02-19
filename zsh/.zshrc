@@ -54,5 +54,9 @@ bindkey '^r' fzf-select-history
 # Added by Antigravity
 export PATH="/Users/ka/.antigravity/antigravity/bin:$PATH"
 
+# go env
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 # Added by Antigravity
 export PATH="/Users/shimataro/.antigravity/antigravity/bin:$PATH"
